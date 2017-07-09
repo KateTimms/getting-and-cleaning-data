@@ -8,30 +8,30 @@ The experiments  to produce the data were carried out with a group of 30 volunte
 In the tidy data table, 81 column variables.
 1. subject - column containing the subject numbers
 2. activityname - column containing, for each subject, the activity names as follows
-...* LAYING
-...* Sitting
-...* STANDING
-...* WALKING
-...* WALKING_DOWNSTAIRS
-...* WALKING_UPSTAIRS
+LAYING
+Sitting
+STANDING
+WALKING
+WALKING_DOWNSTAIRS
+WALKING_UPSTAIRS
 3-81. For each of the following, there are three six columns. They consist of the mean and standard deviation for each movement, on each of the X, Y and Z directions (e.g. tBodyAcc-mean()-X) where appropriate. Each column consists of the mean of the values for that varable for each subject, broken down by activity:
-...1. tBodyAcc-XYZ
-...2. tGravityAcc-XYZ
-...3. tBodyAccJerk-XYZ
-...4. tBodyGyro-XYZ
-...5. tBodyGyroJerk-XYZ
-...6. tBodyAccMag
-...7. tGravityAccMag
-...8. tBodyAccJerkMag
-...9. tBodyGyroMag
-...10. tBodyGyroJerkMag
-...11. fBodyAcc-XYZ
-...12. fBodyAccJerk-XYZ
-...13. fBodyGyro-XYZ
-...14. fBodyAccMag
-...16. fBodyAccJerkMag
-...17. fBodyGyroMag
-...18. fBodyGyroJerkMag
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
 
 ## The Tidy Data Table
 The tidy data table breaks down each movement measurement (variables 3-81) by subject and activity, giving the mean value for each. This summarises the data in a tidy, easy to read/analyse format.
