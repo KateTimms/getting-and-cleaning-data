@@ -7,14 +7,8 @@ The experiments  to produce the data were carried out with a group of 30 volunte
 ## Variables
 In the tidy data table, 81 column variables.
 1. subject - column containing the subject numbers
-2. activityname - column containing, for each subject, the activity names as follows
-LAYING
-Sitting
-STANDING
-WALKING
-WALKING_DOWNSTAIRS
-WALKING_UPSTAIRS
-3-81. For each of the following, there are three six columns. They consist of the mean and standard deviation for each movement, on each of the X, Y and Z directions (e.g. tBodyAcc-mean()-X) where appropriate. Each column consists of the mean of the values for that varable for each subject, broken down by activity:
+2. activityname - column containing, for each subject, the activity names as follows: LAYING, Sitting, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+3. Variables 3-81. For each of the following, there are three six columns. They consist of the mean and standard deviation for each movement, on each of the X, Y and Z directions (e.g. tBodyAcc-mean()-X) where appropriate. Each column consists of the mean of the values for that varable for each subject, broken down by activity:
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
