@@ -40,5 +40,3 @@ Next descriptive names were given to the columns/variables (see Variables above)
 To select just the mean and standard deviation measurements for each feature variable, grepl was used.
 
 Finally, the table was melted to a long, thin table containing subject and activityname as ids and all other previous columns (the features) as measuremnt variables. Next the final summary table was created useing dcast for the ids subject and activityname, where the mean was mean was calculated for each measurement variable. The table was then written to TidyDataTable.txt.
-
-Finally, the
